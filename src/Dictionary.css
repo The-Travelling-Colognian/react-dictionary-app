@@ -1,4 +1,9 @@
 .Dictionary {
   text-align: center;
   margin: 30px;
+  margin-bottom: 15px;
+}
+
+.Dictionary .search {
+  margin-top: 15px;
 }
