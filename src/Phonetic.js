@@ -2,12 +2,14 @@ import React from "react";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
+  const audio = new Audio(props.phonetic.audio);
+  function playSound() {
+    audio.play();
+  }
   return (
     <div className="Phonetic">
-      <a href={props.phonetic.audio}>
-        <i class="fas fa-volume-up"></i>
-      </a>
-      {props.phonetic.text}
+      <i class="fas fa-volume-up" onClick={playSound}></i>
+      <span className="text">{props.phonetic.text}</span>
     </div>
   );
 }

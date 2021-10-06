@@ -10,7 +10,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="spicy" />
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
