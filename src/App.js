@@ -34,6 +34,7 @@ function App() {
           >
             Netlify
           </a>
+          <br />
           Also check out my{" "}
           <a
             href="https://competent-almeida-bddaf5.netlify.app/"
