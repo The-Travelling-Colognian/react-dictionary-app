@@ -34,6 +34,14 @@ function App() {
           >
             Netlify
           </a>
+          Also check out my{" "}
+          <a
+            href="https://competent-almeida-bddaf5.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React Weather App
+          </a>
         </footer>
       </div>
     </div>
