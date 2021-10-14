@@ -7,7 +7,7 @@
 }
 
 .Dictionary h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
@@ -30,6 +30,6 @@
 }
 
 .Dictionary .hint {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 5px;
 }
